@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: classpath:environment.yaml
+  application:
+    name: chatify!Server
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
